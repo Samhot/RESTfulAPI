@@ -1,0 +1,30 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "RESTful Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Samhot/RESTfulAPI.git"
+  },
+  "keywords": [
+    "RESTfull",
+    "API"
+  ],
+  "author": "Thomas Punzano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samhot/RESTfulAPI/issues"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongoose": "^4.11.0"
+  }
+}
